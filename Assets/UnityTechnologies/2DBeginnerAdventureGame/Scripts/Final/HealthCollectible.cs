@@ -7,7 +7,7 @@ public class HealthCollectible : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
-        RubyController controller = other.GetComponent<RubyController>();
+        RubyControllerDemo controller = other.GetComponent<RubyControllerDemo>();
 
         if (controller != null)
         {
